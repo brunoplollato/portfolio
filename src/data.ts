@@ -14,7 +14,7 @@ export const siteConfig = {
   ogImage: "/og-image.png",
 };
 
-export const resumeFile = "/Bruno_Lollato_Resume_ATS (1).pdf";
+export const resumeFile = "/Bruno_Lollato_Resume_ATS.pdf";
 
 export const aboutText = [
   "Performance-focused Senior Frontend Developer with over 10 years of experience designing and implementing scalable, internationalized web applications.",
@@ -151,11 +151,9 @@ export const experience = [
     type: "work" as const,
     role: "Frontend Developer",
     company: "RGB Comunicação • JET e-business • Somenek Comunicação",
-    period: "Earlier roles",
+    period: "Prior to 11/17",
     location: "Brazil",
-    bullets: [
-      "Earlier roles: RGB Comunicação, JET e-business, Somenek Comunicação.",
-    ],
+    bullets: [],
   },
   {
     type: "education" as const,
