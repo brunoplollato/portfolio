@@ -153,7 +153,9 @@ export const experience = [
     company: "RGB Comunicação • JET e-business • Somenek Comunicação",
     period: "Prior to 11/17",
     location: "Brazil",
-    bullets: [],
+    bullets: [
+      "Built foundational frontend experience across communication and e-business environments.",
+    ],
   },
   {
     type: "education" as const,
