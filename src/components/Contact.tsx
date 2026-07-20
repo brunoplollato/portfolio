@@ -74,7 +74,7 @@ export default function Contact() {
               <div>
                 <p className="text-xs text-[var(--color-muted)] mb-0.5">LinkedIn</p>
                 <p className="text-sm font-medium text-[var(--color-text)] group-hover:text-[var(--color-accent)] transition-colors">
-                  linkedin.com/in/brunopollato
+                  linkedin.com/in/brunolollato
                 </p>
               </div>
             </a>
