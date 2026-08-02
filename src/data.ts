@@ -31,58 +31,13 @@ export const skills = [
 
 export const projects = [
   {
-    title: "E-Commerce Storefront",
+    title: "Real Estate Application",
     description:
-      "A fully responsive e-commerce platform with product filtering, cart management, and Stripe checkout integration. Built for performance with code-splitting and lazy-loading throughout.",
-    tech: ["Next.js", "TypeScript", "Tailwind CSS", "Stripe", "Prisma"],
-    github: "https://github.com/brunoplollato",
-    demo: "#",
+      "Modern Real Estate & CRM platform built with Next.js 14, Neon Postgres, Drizzle, and NextAuth v5. Features virtualized property cataloging, interactive analytics, and lead pipeline management",
+    tech: ["Next.js", "TypeScript", "Tailwind CSS", "Neon Postgres", "Drizzle, Nextauth v5, Zustand"],
+    github: "https://github.com/brunoplollato/prime-estate",
+    demo: "https://prime-estate-delta.vercel.app",
     featured: true,
-  },
-  {
-    title: "Real-time Dashboard",
-    description:
-      "Analytics dashboard with real-time data visualisation, configurable widgets, and role-based access control. Processes over 10 000 data points per second without sacrificing UI responsiveness.",
-    tech: ["React", "TypeScript", "Recharts", "WebSockets", "Zustand"],
-    github: "https://github.com/brunoplollato",
-    demo: "#",
-    featured: true,
-  },
-  {
-    title: "Design System",
-    description:
-      "Component library of 40+ production-grade UI components built with accessibility-first principles. Fully documented with Storybook and published to npm for internal reuse.",
-    tech: ["React", "TypeScript", "Storybook", "Radix UI", "Vitest"],
-    github: "https://github.com/brunoplollato",
-    demo: "#",
-    featured: true,
-  },
-  {
-    title: "AI Writing Assistant",
-    description:
-      "Browser extension and web app that integrates with OpenAI GPT-4 to assist with copywriting, emails, and documentation. Used by 2 000+ active users.",
-    tech: ["React", "TypeScript", "OpenAI API", "Chrome Extensions API"],
-    github: "https://github.com/brunoplollato",
-    demo: "#",
-    featured: false,
-  },
-  {
-    title: "Task Management SaaS",
-    description:
-      "Collaborative project-management tool with drag-and-drop boards, Gantt charts, and GitHub integration. Includes real-time collaborative editing.",
-    tech: ["Next.js", "TypeScript", "Supabase", "dnd-kit", "Tailwind CSS"],
-    github: "https://github.com/brunoplollato",
-    demo: "#",
-    featured: false,
-  },
-  {
-    title: "Portfolio v1",
-    description:
-      "The previous iteration of this portfolio, built with plain HTML/CSS/JavaScript. A nostalgia trip and testament to how far the web has come.",
-    tech: ["HTML", "CSS", "JavaScript", "GSAP"],
-    github: "https://github.com/brunoplollato",
-    demo: "#",
-    featured: false,
   },
 ];
 
