@@ -44,8 +44,8 @@ export const projects = [
     description: "Serviço de encurtamento e redirecionamento de URLs com analytics assíncrono de cliques, construído com Clean Architecture/DDD, Node.js + TypeScript.",
     tech: ["Node.js", "TypeScript" "Fastify", "PostgreSQL", "Redis", "BullMQ", "Jest", "Testcontainers", "Swagger"],
     github: "https://github.com/brunoplollato/encurtador-url",
-    featured: true
-  }
+    featured: true,
+  },
 ];
 
 export const experience = [
