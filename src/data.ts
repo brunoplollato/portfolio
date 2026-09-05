@@ -42,7 +42,7 @@ export const projects = [
   {
     title: "Encurtador de URL",
     description: "Serviço de encurtamento e redirecionamento de URLs com analytics assíncrono de cliques, construído com Clean Architecture/DDD, Node.js + TypeScript.",
-    tech: ["Node.js", "TypeScript" "Fastify", "PostgreSQL", "Redis", "BullMQ", "Jest", "Testcontainers", "Swagger"],
+    tech: ["Node.js", "TypeScript", "Fastify", "PostgreSQL", "Redis", "BullMQ", "Jest", "Testcontainers", "Swagger"],
     github: "https://github.com/brunoplollato/encurtador-url",
     featured: true,
   },
